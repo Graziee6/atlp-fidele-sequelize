@@ -8,6 +8,7 @@
     "make-model": ">npx sequelize-cli model:generate --name User --attributes name:string,password:string,email:string,age:number,address:string",
     "migrate": "npx sequelize-cli db:migrate",
     "undo-migrate": "npx sequelize-cli db:migrate:undo",
+    "make-seed": "npx sequelize-cli seed:generate --name demo-user",
     "start": "node index.js"
   },
   "devDependencies": {
